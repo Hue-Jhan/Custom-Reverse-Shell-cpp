@@ -6,7 +6,7 @@ A sample of a tcp reverse shell in c/cpp, creates a tcp socket given a target ip
 
 In the second sample i commented a portion of code which can be used to resolve addresses, for example in cases of port forwarding, or dns related issues.
 
-How to run:
+How to compile:
 ``` gcc -o rev.exe rev.c -lws2_32 ```
 
 If you want to extract the shellcode, the fastest way is in my opinion on gitbash:
