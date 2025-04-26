@@ -12,4 +12,5 @@ How to compile:
 If you want to extract the shellcode, the fastest way is in my opinion on gitbash:
 ``` xdd -i rev.exe rev2.c ```
 
-But unlike meterpreter or similar framework payloads, the shellcode extracted here is like 30.000 lines long, which means its basically unusable. Also it's easily detected by Windefender : (
+But unlike meterpreter or similar framework payloads, the shellcode extracted here is like 30.000 lines long, which means its basically unusable. Also it's easily detected by Windefender : (  
+You can use it with netcat as listener: ``` nc -nlvp 4444```
