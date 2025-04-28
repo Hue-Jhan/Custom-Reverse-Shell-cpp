@@ -12,10 +12,10 @@ If you want to extract the shellcode, the fastest way is in my opinion on gitbas
 ``` xdd -i rev.exe rev2.c ```
 
 
-<img src="media/nc1.jpg" align="right" width="300">
+<img src="media/nc1.jpg" align="right" width="330">
 
 But unlike meterpreter or similar framework payloads, the shellcode extracted here is like 30.000 lines long, which means its basically unusable. Also it's easily detected by Windefender : (  
 Here is an example of me trying to use it with metasploit not knowing that only meterpreter shells can be used with msfconsole: 
 
 You can instead use it with netcat as listener: ``` nc -nlvp 4444``` and sometimes it works :D \
-<img src="media/nc2.jpg" width="200">
+<img src="media/nc2.jpg" width="250">
