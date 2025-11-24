@@ -1,5 +1,5 @@
 # Custom Reverse Shell c/cpp
-My attempt at creating custom Reverse Shells in c/cpp via TCP, most of them don't work : (
+My attempts at creating custom Reverse Shells in c/cpp via TCP, most of them don't work : (
 
 # 💻 Code
 Tcp reverse shell in c/cpp, creates a tcp socket given a target ip and port, establishes a connection, creates a ```cmd.exe``` process which will get as input whatever the attacker will write and will send back the output.
